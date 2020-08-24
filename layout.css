@@ -1,0 +1,289 @@
+body {
+  background-size: auto;
+  background: rgb(90,113,96);
+  background: radial-gradient(circle, rgba(90,113,96,1) 0%, rgba(148,112,82,1) 100%);
+  margin:0px;
+  font-family: cursive;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.container {
+  border: 2px solid white;
+  background-color: white;
+  color: black;
+  border-color: blue;  
+  border-radius: 5px;
+  padding:20px;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.darker {
+  text-align: right;
+  color: black;
+  border-color: red;
+  background-color: grey;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 10%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: left;
+  color: black;
+}
+
+.time-left {
+  float: right;
+  color: black;
+}
+
+#customers {
+  font-family: cursive;
+  border: 1px solid white;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid white;
+  padding: 8px;
+}
+
+
+#customers tr:hover {background-color: grey;}
+
+#customers th {
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: red;
+  color: white;
+}
+
+.content {
+    background-color: #183122;
+    color:white;
+    text-decoration: none; 
+    font-size: 14px; 
+    padding:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.content1{
+    background-color: #183122;
+    font-size: 18px;
+    color:white;
+    text-decoration: none; 
+    text-align: center;
+    padding:40px;
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tutorials{
+    background-color: #183122;
+    color:white;
+    text-decoration: none; 
+    text-align: center;
+    padding:20px;
+    margin-left:150px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.about{
+    background-color: #183122;
+    color:white;
+    text-align: center; 
+    font-size: 22px; 
+    padding:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contact-form {
+    display:block;
+}
+
+.contact-form-group {
+    margin-bottom: 2px;
+}
+
+.contact-input-group {
+    position: relative;
+    width: 100%;
+}
+
+.contact-form-control {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid white;
+
+}
+
+
+
+.contact-btn {
+    display: inline-block;
+    font-size: 22px;
+    color: #333;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.contact-btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+
+.contact-btn-primary {
+    color: white;
+    background-color: dodgerblue;
+    border-color: #333;
+}
+
+.contact-btn-primary:hover {
+    color: white;
+    background-color: dodgerblue;
+    border-color: #333;
+}
+
+.h3{
+    font-size: 30px;
+}
+
+ul{
+    font-size: 18px;
+    text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid {
+    background-color: #183122;
+    color:white;
+    text-decoration: none; 
+    font-size: 14px; 
+    padding:20px;
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  
+footer {
+  position: relative;
+  text-align: center;
+  border: 2px;
+  padding: 3px;
+  color: white;
+}
+  
